@@ -268,6 +268,11 @@ perspective-viewer {
     bottom: 0;
     border-top: 1px solid #666;
 }
+@media (max-width: 1000px) {
+  perspective-viewer{
+    margin-top: 17%;
+  }
+}
 
 label {
     height: 32px;
